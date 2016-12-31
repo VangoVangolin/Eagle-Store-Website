@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+	<!--Este va a ser el titulo del website-->
+	<head>
+		<title> Books </title>
+		<link rel="icon" href="https://lh3.googleusercontent.com/nDjNs11Gx8E_Z6Cg9jCKq-yiKZ4xUhnDDbnvnNVSx5AJQZSwzHok-0iB-n5UMtVryqaosr8nZh6KDraUMYrFGorUVqcYFMIMb1rViPtjfHDm3nyIu0XG9LlSgTFuMWRTlfEOQ47u-1zrY_8qYpUTtPw48sL558CSX1pEh7HkSuPUanx2nMfnbzz3zquOpA1ctKGg_HDoPXBCR9f6IOa3cMs8wbgOYnaMnmKoGZKToYkjEvMQ7FELxj831-4-vbXJmFPOlVSQcx3HeqRWzxgC8YDqGkP-x-PNUICDqZ8pPRWP1j4soBoeCfKNn6cw5EzFm7e1XY_oI5iZnTKTbDX5_O-00LfZfolgvvYFD035U_6ipCNvH5R6iMitTyrffD1fi8LhToMF9VRTRFeVemvS2JmKOzeirVro96q0aSWnlZtu98aBnQoYywn0HQsdDFJCq9zVpd0kw3e4_0WHMYfeJsZA2MH-ZgDZywuvmCJ1UW-XlpkTBngBNomrReOy63_QxP-YxRn4E56JiCS7J-Dnhby59U_794gjm9DQeeZnO6CoEXY5Zh0b0RqtR-V4CyZAthKBddQaX0FW_Zl4OvhT3w1AqfExuYzA3OIdswIfA2dpTtnW=s1283-no">
+	<style>
+		body {
+			background-color: f9f9f9;
+		}
+		div.everything {
+			margin-left: 150px;
+			margin-right: 100px;
+			margin-top: -40px;
+			margin-bottom: 30px;
+		}
+		div.logo {
+			margin-left: 1000px;
+			margin-top: 20px;
+			
+		}
+		
+		div.head {
+			margin-left: 300px;
+			margin-top: -180px;
+			
+		}
+		span.head {
+		}
+		span.first {
+			display: inline-block;
+			margin-left: 25px;
+		}
+
+		span.lineal {
+				display: inline-block;
+				padding-left: 70px;	
+                
+		}
+		
+		span.secondary {
+			display: inline-block;
+			margin-left: 25px;
+			padding-top: 20px;
+		}
+		
+		
+		a.box:link{
+			display: block;
+			background-color: rgb(244,244,244);
+			/*background-color: rgb(244,244,244);*/
+			height: 210px;
+			width: 210px;
+			color: #34B8B9;
+			text-decoration: none;
+             border-radius: 100%;
+			font-family: Laughing Gull Regular;
+		}
+		a.box:hover {
+			display: block;
+			background-color: #34B8B9;
+			/*background-color: #34B8B9;*/
+			/*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
+			height: 210px;
+			width: 210px;
+			color: #34B8B9;
+			/*color: white;*/
+			text-decoration: none;
+            border-radius: 100%px ;
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+			font-family: Laughing Gull Regular;
+			
+        }
+		a:link{
+			display: block;
+			background-color: none;
+			height: 150px;
+			width: 150px;
+			color: none;
+			text-decoration: none;
+             border-radius: 100%;
+			
+		}
+		a:hover {
+			display: block;
+			background-color: none;
+			/*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
+			height: 150px;
+			width: 150px;
+			color: none;
+			text-decoration: none;
+            border-radius: 100% ;
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+        }
+		a:visited{
+			display: block;
+			background-color: none;
+			height: 150px;
+			width: 150px;
+			color: none;
+			text-decoration: none;
+             border-radius: 100%;
+		}
+		
+
+			@-webkit-keyframes shake {
+			    0%, 100% {-webkit-transform: translateX(0) rotate(0deg) translateY(0);}
+			    15%, 35%, 55%, 75%, 95% {-webkit-transform: translateX(-1px) rotate(-2deg) ;}
+			    25%, 45%, 65%, 85% {-webkit-transform: translateX(1px) rotate(2deg); }
+			    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateY(1px);}    
+			    20%, 40%, 60%, 80% {-webkit-transform: translateY(-1px); }
+			}
+			@-moz-keyframes shake {
+			    0%, 100% {-moz-transform: translateX(0) rotate(0deg) translateY(0);}
+			    15%, 35%, 55%, 75%, 95% {-moz-transform: translateX(-1px) rotate(-2deg) ;}
+			    25%, 45%, 65%, 85% {-moz-transform: translateX(1px) rotate(2deg); }
+			    10%, 30%, 50%, 70%, 90% {-moz-transform: translateY(1px);}    
+			    20%, 40%, 60%, 80% {-moz-transform: translateY(-1px); }  
+			}
+
+			@-o-keyframes shake {
+			     0%, 100% {-o-transform: translateX(0) rotate(0deg) translateY(0);}
+			    15%, 35%, 55%, 75%, 95% {-o-transform: translateX(-1px) rotate(-2deg) ;}
+			    25%, 45%, 65%, 85% {-o-transform: translateX(1px) rotate(2deg); }
+			    10%, 30%, 50%, 70%, 90% {-o-transform: translateY(1px);}    
+			    20%, 40%, 60%, 80% {-o-transform: translateY(-1px); }  
+			}
+
+			@keyframes shake {
+			    0%, 100% {transform: translateX(0) rotate(0deg) translateY(0);}
+			    15%, 35%, 55%, 75%, 95% {transform: translateX(-1px) rotate(-2deg) ;}
+			    25%, 45%, 65%, 85% {transform: translateX(1px) rotate(2deg); }
+			    10%, 30%, 50%, 70%, 90% {transform: translateY(1px);}    
+			    20%, 40%, 60%, 80% {transform: translateY(-1px); }  
+			}
+			.shake {
+			    -webkit-animation-name: shake;
+			    -moz-animation-name: shake;
+			    -o-animation-name: shake;
+			    animation-name: shake;
+			    -webkit-animation-duration: 100s;
+			    -moz-animation-duration: 100s;
+			    -o-animation-duration: 100s;
+			    animation-duration: 100s;
+			    -webkit-animation-fill-mode: both;
+			    -moz-animation-fill-mode: both;
+			    -o-animation-fill-mode: both;
+			    animation-fill-mode: both;
+			    -webkit-animation-iteration-count: infinite;
+			    -moz-animation-iteration-count: infinite;    
+			    -o-animation-iteration-count: infinite;
+			    animation-iteration-count: infinite;
+			    -webkit-transition-timing-function:linear;    
+			}
+		h1 {
+			text-align: center;
+			padding-top: 0px;
+			padding-right: 35px;
+			font-family: "Trebuchet MS", Helvetica, sans-serif; 
+			font-size: 43px;
+			color: #34B8B9;
+		}
+		img.circles {
+			padding-left: 5px;
+			/*padding-top: 45px;*/
+			padding-top: 3px;
+		}
+	</style>
+
+	</head>
+
+<body>
+	<div class="logo">
+		<a title= "Looking for the Home Page? Click Here" href= "C:\Users\Owner\OneDrive\Documents\Eagle Store Web Site\Codes\Main.html">
+		<img src="https://lh3.googleusercontent.com/HsyPH8InmJSEmzyBCZ2PiFEvI0NjIvKspsvxqwh05SFUI1IFLghzKCJFjch_ru3lf2QxIqpFp5UzJafABqxJtITDOpecjuKKotWKppZUUHLqF2xqcj32f2JcaeFKv75Nou13WKIK2RJ2XcSegW0yCZPRyI4mu6jXdzmLJrjewRyQar5mTeClLa7SE4erJ_ux5cNchwixP7Z_6DOD8lt_vzBd08G0g65BVPOehne04Tur-hJp3E_92ZEqbBis7mqWeiA8bVe0u6r2_KAXFo6hKjxJH59Oa1diiLZwl3vL5LWngfYpPcIhLMS5Xaps-ZnY1g72XEbe5oJPkiFLbPHYWG1FWd068g1LJsmmrUmJBiR12jmE2KX8QmHDMWZCoJ7Nq-9aUA8ys09C_eXj1_HpjdWoyuwJmqVnTE-B9Z4M1vvyhe92IHvLrW5RF3x4yh3veotSgSplsxzvpDU8JNrsUfuv9jKgGQrxGp6ZDDQ3UmRjYU_UZZm-gBxU5sdSRXy8n1kA7btNFAQxaQY-7Wv8_1cAChaAC4CYgQw_xEVlkw03-VmXZ49C4bBV4FE1Z69sHvOIM_wV_3ci-BO945ypLvUjTTXi1ZmUzUf3P5qt7kAnjYPz=s1265-no" height="150px" width="150px" />
+		</a>
+	</div>
+	<div class="head">
+		<img src="https://lh3.googleusercontent.com/vRFVdZcQ6sv0foFL8jlyXn1514sun7ggNOGCaiPAhzysMC94fjuGOtDdEyQQRq_hY_K8CU5HvbijRfrL1Wi2Iqv8MRBsSwddqkeS_g2L2vEotyhUPYX9kdy4mtnkZ9HxvIXpgseF2RCq2-UOgU-yiujsIxcbsqe5mNsiIFrwZmO0ZuwMpl5W7fc6PkBfvo1MRyS82ctvyteTFM_tkn9V-KyJodcPPmJxF3VOrW8_TkuNfAxwqZvPsd3WZln-XCDAKlxbgerehWhZLqRr_r4CT1836COjMRS5M-KHajKxTbkBv2ZdrCz6fiJu7p_UQLqcIhSJPMxNfect3Hn1FGXDlnvHVtOBsAkY_CucIqhveb6tzjZ-IxJOWazuBjA3dUukcEPjUjiK4y8UGH7vmptVAIWzqMeYyB8h3aJDwuR1f2ayDbyHOqT5AXXr6YsCCnmjaIb--4mcUSTYSW4Gqw8_GvST43psEMs_Nxka3zQ0GZg8rG2O_fuZuLhfZF4uNtH6z4EPo46PFo-VRvcac2duM0v7w2_1oVr1vlqQXU1WeK89lDwGI46PrbBIyneYSeHo2TGpdFRt-BTsXHIlpcrqHXX7B4m3Wam_rtNyh3xE0OWiJT8i=w781-h242-no" height="220px" width= "710px" />
+		<!--picture original size: height="202", and width= "862px"--> <!--small size: height="77.34 px" width= "303.04 px"--> <!--not anymore-->
+	</div>
+		<div class="everything">
+			<span class="head">
+			</span>
+			<span class="first">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Books_1st.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/iCBfzG_-Ft3ENgo1Xs_axRN0LfhgaEV1wDGD4HfHDwoZsQMU1g71i4fiRRdLg-7_XnCYHnaztZpGWtFPJzWojsoEpcfnWW-nSWMmRuHPk77HZtXFJn7P0i4WD3waIYl_VZe0ZzpCvGEDFu1Im4JoVt4-DkLiJi5QXF0hAJXcLFl3NhIYRVlDgLu_twkOU12WhKpe5gpW1FQ4mxxMlvDuxQ2sAZiStAFPRBEC9HPuTReIpVyhNKEJFofuGxaB-k29gPNUYHFkO7BMCxFzLm4s3NsV5CsPkaniqj6JYdMYDk-p4fEY3NN1zSnsCNDlUlZsO6Dr8kKFXcHy94Ex9NQ442CKgOqs1hyxM2gI-M7ELWMmlfw0xrEfu_0sM4NW4Y2J8azrPQx36_7RnLqzQ478rGy0injVtOI4fG43tCvYrTt14TwQ3P1QkbEA_JVmxvBRgPbL3aX0ajVJOYM_yih98YoX8Sc4UR-q5yR_E12P1UkMdDc9mPnz8UVZvDkjZlZGGcud6PjmweO_jX8xjdjOWjmPkuK64sVj5tjqUXAQYzvKJ8kOMLUd9jhtdF5KOwcBxQQ8zOiXGsn3lG-3WE8InmLp_08Ex6sQO_oFv6anbvmDXT_W=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 1st box-->
+				</a>
+			</span>
+			<span class= "lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/Tf6H_tiq3UFEBclHOEVp2DlbazjG3M_ov5cZ9onbLQpXV8wdhWVJ7Y3Llqp9XFdo4nPgb2nmznWPH0Tf6__BNkdkjunVRfPYmrB-etYrpSpffjSzz6dnesRAOL7gxwBSOMajV1fMF4hyLFYPCEtGbeEDM_ylFbs_TYoHt9CS1sRub0t9sX1URsfFCKR5--P2ePd4LzlmvQWNPGxPbOxz0wyOaMD20lY5RYR5wg3tf1xdIqrufW3mU2I9VVdJqaplfTMMneIgOnIjhYaHeROp7n3uA13gA5SmdSe67sjbvKp1cEmrCtJ0iFnvk5MPnQ19xMvxZLB56KBIpms_QEJ-ma0vzuWlLhhzvg1_XSBln_o-aBqEUuzpkkuRhxA9tNcdccd5a428E0n81QG65Nc7X1kBFczpq5IgrZ-tIR-2JmH-63QFN96As6QPj2_dleL8dJmf-R_rLXnNKnDo5tru_hIeO3GQvP-G--gusWDZ9H4oqAt3Ahm-yF_C-zLfsHhSTR9nSc9YOyqy3J00EZjr31FEcqCXsQexx_HfBg5_V3GioUdEhAq76xYCP0hzuxhThaOiW1n_1jWvZm4Plq5Y_vlLUvKeXbago24_o6D25sclteVr=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 2nd box-->
+				</a>
+			</span>
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/SYkvWHJJOV6l91ue_ithYwy9d34L-xFpNAb6Cd77sk5L7po9FcIx0482VIV7qEi-SI7qVGQ0DB8-FPPZLCgMa4RLVNshHXN2XYNCnCa21tQVnRZ22CbrbEIgZMc0QBPKlMFaU5JoHtybttKn24j0n9BvTcY-J9TP2bsmBgQE_xOTUhr-wubXbk_O26ucibtuUQxejM1xaccfEk6baUUaUfMdEGZRByczfXaR5pvSFmKh_93eIHDjCCQU2X5k2lc2vfLYAJ2EHHl5NVAf6wvTdJjvbXCjBYbwJFMTcBtxh2pD8D-33VesMOahpkCKGxFej77E1X1fBZdShBt2i33uxnDd51RodOHP-xNaBra9ef9240gPRxWUyJyq5lPVw87VctJnD8yNzK14dPLgRI3sDj94qkTmV1j-OTC6c0W3a6tMPyoTzVrdY9NoQH8hF2fsIfxMJJv1kIcloMsxfVp04ecrF4CNZPgjYPiw3mJPGvNr7V78E-ICgBaU-R1vyN5PCg5IXny-foL7FWFtC-EC73VcpJUVrs2ovyG7IYvO9tFaaKcyYTVbrgU356-3o4COlC6GSxJEIRMJ__7HaMg7Nu4U-bPxtLosoAfsQwmwUBm6XU1h=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 3rd box-->
+				</a>
+			</span>
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/Hr4N_Nl-pjS5AYpRYdLm2de8BG7ME4ZGpbyFWQF_HHkWAIsAsBxMvUpfxw3Gqq2YW6O3DYjC-ZzVlUnijtX1ksfWex1Xixf6zok7b4StWTBFW1stvbTYLFbc1ONf-WFqDTxTdRG4pzLFy_njwLqCz-NPCjMFr5edmuhgxTDgK45yVjGhEYLs1wrHrZrC11ACloixiV4W6yb13YkPhbqfGD7DfSLvGc-VMORUURH0yb2I1theg-OhqNI-2zlZks1J3TobHmG08lGu2MnUmUS9dWYEC_I3pqpHQZ5BgPJWep2geAAT8iWVbwK5upCIAc3q6kfffhiaKZCptoa_mZp5y9aehKVuI9_u8UMNjz-FhfydmRIBYlb3nI7FqGiqbJdkTQdkdY9sBUckPl9YcsihP90TtKUfrTYvb_r8DaH-B4DJAb5oTWDMoO3ejXxFgjETElhrBpMYOz5St2xf-R3H4q8s1cSZ2MXCTucvj0R9Q_wiC-qJZKcjof80EXxWewJsB7yHINwuOYe6EsTD4Sh62OSjnv8gn0DlW8W4r4_yfn99FBpCkDMaTlE6hEBGdO1hnPDJ60qD5-5hoWPwrdTXcf3VHslkvsfiOWxijEfRRROJuFg1=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 4th box-->
+				</a>
+			</span>
+			</br>
+			<span class="secondary">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/N0aiSTy1yNcQk-nn8mSO7NH8dGdGHgKvTaQBQwFUDR6_c8OS5LR8so0Iz8o-QRuWmjQ4C9KBI_3NNYzkRFqcokJnMG61GMu1T7LPTd55hl22EVD1w4q2NDRV33h1LLEmz1_cUmGk4mgni0orkNT5nVLzZfg4IV263JjekqVw-Nn9rc8lV4SxO7dZ8kHdDYMfoiHnecJbq2IFCqeusvmZiGY3IYYqzybaY659Kwyx3zEHpuQpWXnfUakxLBFji7MqU5MdwmKkoDIuRdfhXYL83HCbe2-4VNGYn3L-yKu3p9lYx0xZ4DwtrZ_HxB5p52L83XbaIOSO3VUiKEQpp8YF1R1IQnfaVzaJ6slPjy6R8xdffYgafHzhCP41iUOIV1Ep-lH_bbz-2sWOcGlaG3Ui_66FxUabmrDn-S59c2OtY3lIL5Wit0TnfUMxrk49tOlc2ZwfIJlThJN6vv3jnnulkJ2YfKb2QVbnxXbqU65GSZ476sd9ei5PRtiQiZGUE50Pa-zUWe0_ONcUAJ2-GHJUZ3tA1hTMAfKL9zmo7nxNJlc6KVVeCrOFAtH0BujSDlW6fn4e3T1BL54cyEUm5d1Crl5N8dU9GeJXddTkM90_b0U6-kdV=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 5th box-->
+				</a>
+			</span>
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/C26sgFTbGtvtX4aoUCLhC9wuoaFa4v0DDF9SfqQtnvt3VxQ5Au6VXqrSJqWdYvz7_zlLOBEYffJ9K6p6RPe7kB0z49O5Meenvzf6lnqcT4uzc8xc1S-_U8ShbGiPuqeeWlJNmWrLWrIXFaZwCq8Vz6m2_7TF5XtKeHTSKOOH4Jadkmh0lIwLokWoixkXXWWN0Ym3kFCxbRHmGfe0AKMGwCnXqtcpXbHrwnH6ZRFGgwlQzK8gKKsuL_r8qrsT8HJhrPL6uFa2teWQEFl5iEaQ_qLt3K6LIPXshAjV4F7KrHZdInng5llAjeun_zFO9UM1Fme_Ga3uGAgznKVaC48LHVY5cE3t1iUJ8H_LmGv8zBNggtfqPiAhA70mG79-1N5iswZRIyBcu5zL9er49wBP0sqZSz8TOTYctvKw3MHnQ6M4IX9bBQnbNOwM257hbEya6CkN-9kIxEJzOdyXBDccraT4lXew6FRrbBFUtemg5IoCXJOmKCb3YQjYnSDpKl5J6wQbzWqEgpbGvuylGz7Moz-uAkRlu5JUltO7Ttbk7tygMU9mvvjNYPCaSByFMaQpJmBEtr23E5cmFCR6jwmKqz_iPvpHhPsCD8bWVuTVHbG8KuXf=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 6th box-->
+				</a>
+			</span>
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/IpylWG7yBgeD75ldgbWodRhuHhqD_INKAqbkAC33M8wQzSObqAHnwcadNGYiRHQoJex3gqmW6jvIBYVXFTxsAebqHfqTuwqAAR9N69T2z-HvQJIn_39UD-nEphw5vPKnRU8jCWfXQFHVbm12unGUNIMHGUZqhRgTzJATnJYKeh1qqnxN8GgVfvzQHvCHws0mvCTaqpuCNsC7slrh6D-HqdzWxnvJCb16f8QL2T7iTcfeg0UwFLaY0pQooHuP9v-SWd-qBy9B5OCM68LIFPDwm9nGo0OAHxOSbFvqkDNmonw0bLgVTRi57xPBD2c_fWdBjg5GwzCVi_dddeqJhfGuh32WHXSW1qcHFGoCBK7sT5rAMaUKavGt7OKk3cilLMB-2G6F3-mUpHXL3HAzMCPuAd-0B-1JiOlYB7bDPqNvyf-1A-L1P6nnxZyzLGIX4aq8o91y9aoXb1e44_dqB6zVyv6WbXAACRLP-CGOGcaPkaZvV51EtR2p9lu8d5EGZdwWbpRFz8pV2nAG6n9zbD5KORj0HcfguZTLYVLxFW1oGkpKhR3kuDB8OLoFeESbFQ2g0jBN8bBZ2q6aluer2gsTHitGsX5Z0bXuKJXYLI0c-iJPJda5=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 7th box-->
+				</a>
+			</span>
+
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Materials.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/VDY2EmmZHVo4NesqszTDWhRGtyBiER6WQz-COvwdqR14zaQDFMStFuB2Gv3GfS8xrc6uN2K-ui468qMOAJoQGAkc8XogTFtZG4L-AXVKB_6XSwyve7qZ0PfiT3sl1sHxH9Ob0glvs_IzTdljlI0AqwSbXqf0u_xvowl7KKCLNttosGkW1B4IAlpH838v01X7pJKaZvHq7anYxWaU9u1rr46X83cxD3yHIxnlFAUiNU4peWYukLLb3TUb2tJ47YD4yW9a8geFlzlLFLRVKEXfDlXgqp1j4hRADrD31WRkO6aYGeSjnOOHedjmq34cQE0LtCcUk5kP_5_VyrKcPl2d-jheycCN1zAPJhVoeCzkzL1ng2mxve_KUcLh3NYQLxDT0a7Zk62P-fWrUaOpkqvUKDvnoivq22Z31vtmxEqqzh0vw-Gg6-c-6rdovwuBpVgijKy1vZC0DiZXy6uJlmyQg55_HXu5NnrdQ7wI8WQvz-J6HorGWsjCeCXPaxCIRYsxcf5zDLNNxWQ81GnxBr9nU8Qz0xD4g9i-MJfUrqv3P8r0PKC97x06ndHtjQP3wBfsIBjwnDpZMs6J8jbOg9h4FX4GG7yZHIzBkFDegeCDo9SBE6rX=s1289-no" height="200px" width="200px" />
+				</a>
+				<!--picture font: trashhand, new height and width is 50px greater, this is the 8th box-->
+			</span>
+			</br>
+			<span class="secondary">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Books.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/I914pNAEvstt8EfmrdCbJmSD5rNO387ZFGDKxm0l1lOZeI7SF8xBTF26iic4tAwVX_iWiztQzY9oq9rjf2gZWPGco7Sgi_KlUypqfJWAv9GZnM89csexbXQaSHjGilZTrBDwGivGYXb8ENsgBV99lC6GUqWMa5GU8NNzux0bTbYRHmIIOAUzClYySJ3S7ggWkNlO-OB7JNaWkwwOxeHgnEvRwrGPKqBqZGW-2rK5l58yYEJzO5J5bJabrcuiE1JThPb2RYPANIPSB3h79FP3Y6iydy1hiNsI-GglLcHsh8WjpFmjwGJxTjfJ3YCa08yi7s_-xeh5Q-NGxKVFCPAGxddBGj3pXbm9A9YH_OBh1BginJlxu-z9N31FULmGHCQNcRtN3mwWAoZj4qqUyf-NuxUMmoa3f54bJCaf-15onomhvZPvNbTnG7yC0nz_7JOSd0VvJW3XdYe2eQda3aE7V79twNHAAZeHu0MhMDZHVcZOY1TpY-WWKkNdTKOyGA0soTXRu295lTiJ7_kM5y90WEDUmBGk-m7KMYb_4UjDnE7N2Kk2Vge8LkXCin4x2SUiLvyEIp_1TcASwsyTwK-1VJK1l0chJj9Iz7Hum-k3J-JiU-XD=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 9th box-->
+				</a>
+			</span>
+			<span class="lineal">
+				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Books.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/UrfhzxXts73XsTigN2lqNPdBkTtAWtjJg8MJazL2eK5mzaTzc7ZqfYo2JXrxwPezdRQcRYKseJobPXdc8UC-GJXu_2ZCr6CqgtoNUhx4fRkLvsolOsnq0iKGmb0Ss4zDfFsa4DChSmJs4QI14jnqrVB6r82nkJVd8c0BkJtZxTqwNe5zq8iO-oQ2dR8jj2Wxn0_GRhUTxIkrSIc1Qt4zU0RcfvFcuSbpL0tvUpQ-9bwt9kZgftHQr3cYDamRfak5PVGGl0QCsg9DbWBtPTGpWoD4VR7JlBOQg6lyB-gIQEYDO3Pedyzdxct8AbaFhmBnP0CybMZvPHra4M0tynvMojnxwfje4rBGZPgEXf7Del5AQtd6429yAEK2cdsDHFFhLR5NXEt-ffahRwHq-ceXwuMO89R_3LHSn8dFI-RFI3LPTOH34k1Dskc3Mw1NRpEwPECHsNTKuVey9K5ZFl4_-2jOI3DlVD_aCvF4vq2usT-22NzabZvr7ftg0oHJRIp8AhK_utCYTfaRzGJP6xYik-xj-FSDXxJ2kiUTD12YBxtULCU4qUjo0Hw9674oDyaZLAVpgk3WkSNZ7wGsJHct8qbyi1HdnCtOkINatOWwXsyNhTZV=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 10th box-->
+				</a>
+			</span>
+			<span class="lineal">
+			<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Books.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/7hvDrC4E4rwhf2BbzANxuf33uyzl9OyFsefvDz4zYEol-nBL2SqMxvOqNqklbXYqhat0J87yE5mqtSoCSpmbaHLGV1YQ71iU_fIKwsalRtPAGewefZ_RCDODUlsbHIMbv14tnUPiL87b_epTvy5Kmc_3ggscyPsjze-Emz5a7Y3SqXU2yjoMQ4tnO8W2fDiuCb9d1albQDgG8iY8kDwmF95CF36Kle7pby-56UtA7e5aHN2GMBaJz1wyAHxhw6Uol3U4j30rLRQwf5wWewSLFHaZVGbjMMGB2VVTHkx4D-N8jdXAMA9O3qV16dpZV5Li119_pLWmMoIFkbDWTF6uw8D2kZF8DSDELLn18BSL0aQ0fJGckINis2kUkgz2dwYbLi3To7cBnEa3jklbYx4LHkwKMrvCIlkGbrdghkM19y6T0mi45VlhNS4wUto2zKDxmJEMiltp6mXNGw6yz7RWg4Ownce2XSpxDnFFyNk5_jqKf3eGj4Y5B8xeEk2li26fFnAKvAkpY27WwZgU31kIKUwdcCSm2GXtUgy24FFabjkR_OsZ5nYbngTfhwnQQSM3enF1QqPGZQajhuNnOOhYpLh7vGbHYAJflejseZeX1rSSlQjq=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 11th box-->
+				</a>
+			</span>
+			<span class="lineal">
+			<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Books.html">
+					<img class="circles" src= "https://lh3.googleusercontent.com/1Uicx2NUW_cFga8j4pkz7Z4hzn5ZqENhkNAU2rQz_srJXMkYAA8WG3GfXOOT0bqY0UhFfOEKZ_6RymFXk_riqTy1DjeqtwzCRilUZig_GcF6FrvIAGcJ4BOMN99Sl7B_1xZpPBJVGQN6fM61w071Pb_uU-qbRppV-2QtefbAR6CJTR32qTHucxzO5i5ibCcJhuwQOzXJ1bxlx8BOqktUU0KRtMGxT2-rWtEhE2Q0-Zll_zYJCO0FgnVTAk-PxsWBobiCz5uYWa7rvaq10jd-SsEaRq_iE3zJ1ROE_kcgGSxOOeaQrQ5rkCoULBbeQYhqtXMQQfVA6txnjyMkFzypHDynpG71_hP0w8OjDJ48VUIjRg9pSY5qGZ2F1iAcdxTl9vIfl1-elKVXxjZl40DNvEOjc_kBncQN3bQaOG1cR2gBBlXwD6RPo3EFZN7zPX3BR8R00Pvv8j--DFwycZ7KlCAN-LsBeK9d-SR7hLo6nb9NvDLoXnOOPeGEUFdoczChN4o2bOxwS5JWDBPIFSw0fZEXvN20saQWkuPz6fbX9svMAt98CNwaNBydWX1nJ73CH8sfKkWfXIIRqfiKcjMJiCqUwqtDJrmsZ1Ij_MTGwVs0tJF2=s1289-no" height="200px" width="200px" />
+					<!--picture font: trashhand, new height and width is 50px greater, this is the 12th box-->
+				</a>
+			</span>
+		</div>
+		
+	</body>
+</html>
