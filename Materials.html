@@ -137,32 +137,7 @@
 		    margin-bottom: 12px; /* Add some space below the input */
 		}
 
-		#myUL {
-		    /* Remove default list styling */
-		    list-style-type: none;
-		    padding: 0;
-		    margin: 0;
-		}
-
-		#myUL li a {
-		    border: 1px solid #ddd; /* Add a border to all links */
-		    margin-top: -1px; /* Prevent double borders */
-		    background-color: #f6f6f6; /* Grey background color */
-		    padding: 12px; /* Add some padding */
-		    text-decoration: none; /* Remove default text underline */
-		    font-size: 18px; /* Increase the font-size */
-		    color: black; /* Add a black text color */
-		    display: block; /* Make it into a block element to fill the whole list */
-		}
-
-		#myUL li a.header {
-		    background-color: #e2e2e2; /* Add a darker background color for headers */
-		    cursor: default; /* Change cursor style */
-		}
-
-		#myUL li a:hover:not(.header) {
-		    background-color: #eee; /* Add a hover effect to all links, except for headers */
-		}
+		
 	</style>
 
 	<script>
@@ -171,7 +146,7 @@
 		    var input, filter, div, a, p, i;
 		    input = document.getElementById('myInput');
 		    filter = input.value.toUpperCase();
-		    span = document.getElementById("everything");
+		    div = document.getElementById("everything");
 		    p = span.getElementsByTagName('p');
 
 		    // Loop through all list items, and hide those who don't match the search query
@@ -197,7 +172,7 @@
 	</a>
 	</div>
 	<div class="searchbar">
-		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items">
 	</div>
 		<div class="everything">
 			<span class="first">
@@ -278,20 +253,7 @@
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 12th box-->
 				</a>
 			</span>
-					<ul id="myUL">
-			<li><a href="#" class="header">A</a></li>
-			<li><a href="#">Adele</a></li>
-			<li><a href="#">Agnes</a></li>
-
-			<li><a href="#" class="header">B</a></li>
-			<li><a href="#">Billy</a></li>
-			<li><a href="#">Bob</a></li>
-
-			<li><a href="#" class="header">C</a></li>
-			<li><a href="#">Calvin</a></li>
-			<li><a href="#">Christina</a></li>
-			<li><a href="#">Cindy</a></li>
-		</ul>
+			
 		</div>
 
 		
