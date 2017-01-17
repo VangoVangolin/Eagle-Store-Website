@@ -168,19 +168,19 @@
 	<script>
 		function myFunction() {
 		    // Declare variables
-		    var input, filter, ul, li, a, i;
+		    var input, filter, div, span, a, i;
 		    input = document.getElementById('myInput');
 		    filter = input.value.toUpperCase();
-		    ul = document.getElementById("myUL");
-		    li = ul.getElementsByTagName('li');
+		    span = document.getElementById("myUL");
+		    p = span.getElementsByTagName('p');
 
 		    // Loop through all list items, and hide those who don't match the search query
-		    for (i = 0; i < li.length; i++) {
-			a = li[i].getElementsByTagName("a")[0];
+		    for (i = 0; i < p.length; i++) {
+			a = p[i].getElementsByTagName("a")[0];
 			if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-			    li[i].style.display = "";
+			    p[i].style.display = "";
 			} else {
-			    li[i].style.display = "none";
+			    p[i].style.display = "none";
 			}
 		    }
 		}
@@ -203,25 +203,28 @@
 			<span class="first">
 				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/CrayolaCrayons24.html">
 					<img class="materials"   src= "https://lh3.googleusercontent.com/djW2KuFaMKQ5Sv0qe3WIwhNPV3YVNL3JlG1o0mVVMAAVFPg1432D61l4NNBa7FSw0FVDutZkWpmBk1ft4IbafeaT7KXc1A5DVMM7pGvoFGHtW1nHCh3bZBGJvj2NObf5adHm5YRor_knYf6DZ1hesmW_mse5uu6E3aagABBD-pKFErnyROARZaAfXKJSZ3SJSBPR9p8dbTupuc-YXOlrkan8nX86wemtAqFtPDQlpTQdHt9C-ymG8sPXV6NgPRTXqTUiZof5Lr0tFwnFQKoEznD5UhQWxsvp_MBBPe4Ysc8j99R4XwNHP1tXWjgFm9XIVbTu3_tWR1_A5nMoYh6bViqByHdl53ad-leKb4mCodTIg46NJshCMZpEuj-TUWx8llgB2FIEmojT6nRfxD-Y74FXih_MOuvjX96T8SLHVirqRS6He6u9ep0rH3MK_chb9vjNnD7Ji3S4tHXl-tDoYkVY9k7pjfUuEjxQA54hCtt7U9tUe8I3GiNiZIaI-Kt7ZTc8OFBlCK-hOx83_GrCReG-tmxUAGCvKccAGmMI-HahEzOGxsUbE5FjrJr1JyKWxBpQz0elbmH-TbqM03zm6PHZs7im25GoO9nWGGoJiQdar5ev4MptTWidBRSBtBsgm1888SSqyAxCmL4cf__bfVRhTb6f2vjLjp7NsHvwrA=w765-h1125-no"/>
-					
+					<p> Agenda Elementary School </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 1st box,-->
 				</a>
 			</span>
 			<span class= "lineal">
 				<a class="box" href="/Users/ivanjackson/Desktop/Programing/Eagles Store/Materials_CrayolaCrayons16pc.html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/jBnGedhiAyZvOcj1TduNYE57T68mmZAUsTnesrx838SmXljP7AIHio3W_upq7j9HW4tg6qeU02HPGPU_SoEpjsgjMQi1Wv8TW1xZION0WNb1bn0wHvZXLIvME2NjpT7XmzHb8ZHcsghtIuQNRMsRE6x87hG8exRxg17jErFL5q0it2OJZfIPHrW1k_OEO7Z-_q5kKJWSVv6cqsjfxEpYkf-dxY2ZMBHgOJA10g3SgMfxepaLYobj_6zjMkX-t88XrjmEmSEAUBLhnlzOpa1K7WSW43xRWKL7Sb-rwBMM9NEKS5Suec5-rjEyczDcAff4yhtzQ4L2-4ZWpIWnYVWbUfR_oTqbXQ8dUmU6MK4P9TgmjWPkXK0xDYnZq9Uc9hSoQcoecTCJFpoLDDrKbOuTGnRk9__c-tRfRzEgj-chzyWDALE7zCa4OnyslS7UCupgYT4uJX4_Gx1nN8WRf0b_HGbrmFh4ZEqDpVxWybbkJdGv65QQPcEGMzsoKlUYeXqXl0DmNcjNcpJJmPpS0cthnSzVtp5fmyes5Geg0rIqaHLr7m98hTTm9aA-pmhkcVhlNy1vomV1He9shr8pYgF4TtzR-mxrtY8USVvMp8Pet1t5nnnxwVRdy_VPV27mwcms4UdaR4i8ETQFYvn1l3GiIgeUT4BdiRlgertLbThzRQ=w773-h1125-no"/>
+					<p> Agenda 7th-9th </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 2nd box-->
 				</a>
 			</span>
 			<span class="lineal">
 				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/GlJGSCB8U61t4ODvPn_MVxUq4TS642SFazJbokIT0NgWfvJqrmYxMeEIJlnxgwmZyMQDXRoncKcjpQHdhaZXzrwF-K0pSTx867XT4vPbX-hdv0kJUAn9rxM9Fgl2cqOzoKeAFmyHY90B80UyF8kBlfUBc4Hvg6QsNQhAJhFwrpZVKKbd28cF2nr80xbrpzSOJwHzR1pzOXP9G-jDMZV6WNx66nabEYw1uQnuWYZcpRu1ozmWCNk9tDsylqgulT4vQxzfhhVihcfNfeixK-Du2LmH_5rZ5J9CEVJsnocS5DnVxp6dhUAB0T66JiOxRbUCBiYgpR77EidNIXnrTGjkMCY25BR4Lj43TDLAVJdtgVOmkGyz_O0pxo9tHNILTTnvZGx3Cg-YVsUcCXleNvUS8zQnKkIYfORbEpHRYFbFVYOudA5X-JV1w2pQ092kEW1u41aaaQgtCqQh5jfQDJZomAWTDXsG0utxzIPf9yWIaWw2xLeAHwRCGSXI5_TYn2vHkPZBL2WJGEoBGEJR68Le6Y3WGl99OCt0mocdYZVGDBnAcEhwiQrz7Bdmf6p2Sdn6eK_RjY7WbxuooiA04v8n1FUZ8zp8NfWVzB5oEdbGT5SHHssH13qsuiyztU1BeVTCBdD2geYchS8qdYIcvq9RinqMJEGtWk9jWaZO7zJiVw=w1272-h1694-no"/>
+					<p> Agenda 10th-12th </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 3rd box-->
 				</a>
 			</span>
 			<span class="lineal">
 				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
 					<img src= "https://lh3.googleusercontent.com/6-tH6IoVrq9q-GXRHqwWkSBgFqBn8gsScwx2G_31lfTFmRHuKMVsNLwbDP2htDqrmzyMkEuRq2qm0WM1f6IY9v5WV2HI79CAZqp4B1lnsLOJUq3DHpTu4hWedWrSTC6_ptpNFhwuHo_NY0DLcEZvEopWh_GRG_UZu9b-24ARfhxOajacLAL2E-8t4EwwufZ6o5fWF9Gi_3lkWYbbF9PhaPb6fEMm1WUt4v8NlR8CIKbndQDC7PzxAyXJl1Mu1k5GbT536lG3YtSRZP_GPOVaqHirdRehe7mLGXT4mOpJ_ZlCSTwgYbKK621k-HlgblJgXYmYiR1OEO0M4Hc5voQIzNPEVBKIVw7V0bqIG1SVnH7joQi5B6V_2G80k5Juyu9GNtP3NTzmJYGY-xOznZVgbInXHgjG4ipJ2XnzhNLcgr4UgVYYYQvP0Qm6bjiW9l7xqb9s3tGMT9ghQ5TgVyuWMO17YGqYOjXOVDjiLQtat4C0FeXSNv7k4TSsnKLYe6p2EePaLyDQlr710IPNiuWC4wjddBkAXg-UQAcw8ARdFn0bj0kS_7cI_Ix4ppzGzYepzgZXLxMXsT_KDF-ZwCacxhtGk1sn87N3bu7SA_klmYmIbHbU=w353-h839-no" height="200px" width="100px" />
+					<p> Parapoopee </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 4th box-->
 				</a>
 			</span>
