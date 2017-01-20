@@ -137,16 +137,7 @@
 		    border: 1px solid #ddd; /* Add a grey border */
 		    margin-bottom: 12px; /* Add some space below the input */
 		}
-		.input[type=text] {
-		    width: 130px;
-		    -webkit-transition: width 0.4s ease-in-out;
-		    transition: width 0.4s ease-in-out;
-		}
-
-		/* When the input field gets focus, change its width to 100% */
-		input[type=text]:focus {
-		    width: 100%;
-		}
+		
 
 	</style>
 
@@ -162,7 +153,7 @@
 		    // Loop through all list items, and hide those who don't match the search query
 		    for (i = 0; i < p.length; i++) {
 			a = p[i].getElementsByTagName("a")[0];
-			if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			if (p.innerHTML.toUpperCase().indexOf(filter) > -1) {
 			    p[i].style.display = "";
 			} else {
 			    p[i].style.display = "none";
