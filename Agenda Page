@@ -2,16 +2,37 @@
   <head>
     <style>
       div.image {
-      
-      
-      
+        margin-left: 10%;
+        margin-top: 20%;
       }
+      div.title {
+        margin-left: 30%;
+        margin-top: 20%;
+      }
+      div.description {
+        margin-left: 10%;
+        margin-top: 13%;
+       }
     </style>
+    
     <script>
     
     </script>
   </head>
   <body>
+    <div class="image">
+      <a https=#/>
+   </div>
+   
+   <div class="title">
+      <h1> Elementary School Agenda </h1>
+  </div>
+  
+  <div class="description">
+      <p> This is the Elementary School Agenda </p>
+  </div>
+      
+    
   
   </body>
 
