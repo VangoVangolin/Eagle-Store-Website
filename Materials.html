@@ -50,13 +50,13 @@
 			/*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
 			height: 200px;
 			width: 150px;
-			color: white;
+
 			text-decoration: none;
-            border-radius: 50px ;
-            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-            transform: translate3d(0, 0, 0);
-            backface-visibility: hidden;
-            perspective: 1000px;
+      border-radius: 50px ;
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
 			font-family: Laughing Gull Regular;
 			/*-moz-box-shadow:    0 0 50px #34B8B9;
 			-webkit-box-shadow: 0 0 50px #34B8B9;
@@ -131,39 +131,13 @@
 	</style>
 
 	<script>
+			var options = {
+					valueNames: [ 'name', 'born' ]
+					};
 
+					var userList = new List('users', options);
 
 		</script>
-
-		form {
-                width:500px;
-                margin:50px auto;
-		}
-		.search {
-				padding:8px 15px;
-				background:rgba(50, 50, 50, 0.2);
-				border:0px solid #dbdbdb;
-		}
-		.button {
-				position:relative;
-				padding:6px 15px;
-				left:-8px;
-				border:2px solid #207cca;
-				background-color:#207cca;
-				color:#fafafa;
-		}
-		.button:hover  {
-				background-color:#fafafa;
-				color:#207cca;
-		}
-
-	</style>
-
-	<script>
-
-
-
-	</script>
 
 
 	</head>
@@ -173,17 +147,43 @@
 		<a href= "/Users/ivanjackson/Desktop/Eagle-Store-Website/Main_Page.html">
 			<img  src="https://lh3.googleusercontent.com/j_OFkYP6Ttls_fndVd5DXz7hdtaHXpGv8jyBJ85tfiBdRygO5SNJ04XyvPmkurmy6-5074wQvB6HGONOdT6YCWfpzed3NdQDGiMFqsFE1TVa6MvP7R3vkFf8-FPDKxlSEyl2M02Bj92Kp49wEzp3kKHPAN15S2nS9HVBZTn0ZJSMv3-ZWJrwlnbjUsRaPe10dao4rbtPOXdKX0qUTCpTMADUteRN6PLE1q22Tq739hSUDNA7Hcbm5nja__hRNHRyB1pT9hsgGtoofVj7urlEzh-UlIzsR-GuHthI7YUirrj3wFXoc0Cx5e8DIKauS1bNyAp1U2aSYhOCGodIOLpv9abDxfFrfP5jBH1HUwC5vmxV__w9Cy7EkADrgM3-ZmY1vQ2Btd2e4DcpSpBZK35nxVmBYTfol5euwD91na_UObwohvjVIxCNvDjkb4Hut2IeIBjwVNxjLG7GNALGosb2Yv_JyW1HzKmPeSgH1o2tb7bG5R6l_gWMOhRWOlFFvoSRamIW4zCyMqbDl9itUckpqOsSQLLYtmUefVgiuG2okFYXLeOAXybuHva36OWzwUjxw1knEl_PamKdu9DQF0pyoeo1TJ_Lf1HBEuPZ4zFsgkBSKrVO=w1033-h242-no" height="202" width= "862 px"/>
 	</a>
-		<form>
-			<input type="text" placeholder="Search..." required>
-			<input type="button" value="Search">
-		</form>
+
 	</div>
 
 		<div class="everything">
-			<span class="first">
-				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/CrayolaCrayons24.html">
+							<div id="users">
 
-					<img class="materials"   src= "https://lh3.googleusercontent.com/djW2KuFaMKQ5Sv0qe3WIwhNPV3YVNL3JlG1o0mVVMAAVFPg1432D61l4NNBa7FSw0FVDutZkWpmBk1ft4IbafeaT7KXc1A5DVMM7pGvoFGHtW1nHCh3bZBGJvj2NObf5adHm5YRor_knYf6DZ1hesmW_mse5uu6E3aagABBD-pKFErnyROARZaAfXKJSZ3SJSBPR9p8dbTupuc-YXOlrkan8nX86wemtAqFtPDQlpTQdHt9C-ymG8sPXV6NgPRTXqTUiZof5Lr0tFwnFQKoEznD5UhQWxsvp_MBBPe4Ysc8j99R4XwNHP1tXWjgFm9XIVbTu3_tWR1_A5nMoYh6bViqByHdl53ad-leKb4mCodTIg46NJshCMZpEuj-TUWx8llgB2FIEmojT6nRfxD-Y74FXih_MOuvjX96T8SLHVirqRS6He6u9ep0rH3MK_chb9vjNnD7Ji3S4tHXl-tDoYkVY9k7pjfUuEjxQA54hCtt7U9tUe8I3GiNiZIaI-Kt7ZTc8OFBlCK-hOx83_GrCReG-tmxUAGCvKccAGmMI-HahEzOGxsUbE5FjrJr1JyKWxBpQz0elbmH-TbqM03zm6PHZs7im25GoO9nWGGoJiQdar5ev4MptTWidBRSBtBsgm1888SSqyAxCmL4cf__bfVRhTb6f2vjLjp7NsHvwrA=w765-h1125-no"/>
+				<!-- class="search" automagically makes an input a search field. -->
+				  <input class="search" placeholder="Search" />
+				<!-- class="sort" automagically makes an element a sort buttons. The date-sort value decides what to sort by. -->
+				  <button class="sort" data-sort="name">
+				    Sort
+				  </button>
+
+				<!-- Child elements of container with class="list" becomes list items -->
+				  <ul class="list">
+				    <li>
+				<!-- The innerHTML of children with class="name" becomes this items "name" value -->
+				      <h3 class="name">Jonny Stromberg</h3>
+				      <p class="born">1986</p>
+				    </li>
+				    <li>
+				      <h3 class="name">Jonas Arnklint</h3>
+				      <p class="born">1985</p>
+				    </li>
+				    <li>
+				      <h3 class="name">Martina Elm</h3>
+				      <p class="born">1986</p>
+				    </li>
+				    <li>
+				      <h3 class="name">Gustaf Lindqvist</h3>
+				      <p class="born">1983</p>
+				    </li>
+				  </ul>
+
+</div>
+			<span class="first">
+				<a title="Click here for more info" class="box" href="/Users/ivanjackson/Desktop/Eagle-Store-Website/Agenda 4th Grade.html">
 
 					<img class="materials"   src= "https://lh3.googleusercontent.com/MfgxsQam-cPvC8fOxDgQn45hxQGS_ZwyE2YPNGOSTLacc-3Ru1doakYH9UFHTZ9QNk3i3x8IospTEkmaCDm3Yd1ukrDYP5p27Yja8a-eyvYGMwdn0LtV81uJu5sMpJKMpWcoguiUMjsxzyjnzHuYrh0xXSY_ydey3zMKlvcdQCoisU0uktkIB7YCOAN8pE5-NEmM7Fd58eb5kwjraCiXqLcL5piP5skpHTQ7UEdnhsFXztILMxykbKXsbektGDfg2seQJZYCwj2G5kTQJRn959pKFaqyZiKUW4MeboovB66Od4Lo6UrV6m_HQY_JhW9k92GmrX7TJyohkZeJYdxsQg5vGus5_Cn2F9bhnehsqZvM52IMyYjrFEiNZs8OKLgY4P-UNP2suSrkFen40ROLLlcr7s8juTUFZDl_U_EJmEC4eAHCWf_xvtPR9-P2QMXeF2QPBYN2jGtjqCGg95r6uTMUwVEGz7AsLjL4v3xfS85Wur_BZaz7DPepctoSEcppMlObspxQe0_ndCkFNNG3OgpgrGUXI4o9OkVmqvUSXy_0n8ZNUUTrAqXwUrSEypKg6OmOh_eBiTQ1hLTgCM40dsyBu8vDbXD33VKVSxPtoLWfxZr0zCLXlJvM9qIp5WVhtFew1NdzoZmUttjQJk1-BVXyWvgyCSfsgrtx0A3eDQ=w1569-h1943-no"/>
 					<p> Agenda 4th Grade </p>
@@ -194,14 +194,14 @@
 			<span class= "lineal">
 				<a class="box" href="/Users/ivanjackson/Desktop/Programing/Eagles Store/Materials_CrayolaCrayons16pc.html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/vnJ-URy8mkn2eCikaOo8C7EleoNWqB64P1HznDLj4_FhFdIjeE2kVrcG7bQzLESSxDD4nLRJjbTf4zA9M6b3eXh2vmJlp25ca9PRJiH8E_FSggxz6XMUPCFV21UWD07GTtg7OcQlrqTScHIX1PPNmAjMCxfCN3S45yN2cm_GgnWCisgPqAd-1M7N0tM7Ys6w8R6i_0hdMymx8fXC9799ZRCKubNWGAoHWkK9HQB0_OKMQxyFA50Y0Uwu4PkL7xZXArfoNnHRDFhxkCgH_owZrYXBmv2hazG2kJEBM04q31daydNn_uQbdUNoYN_d2EyewQWn75rm0LC5c11zrrpmM5W4zRGGQbHJLx2034uy9tPti-5orLYNsb3oo9BpG4bQzcreu1oyRQz-OlmRb31Tz8M-j1QW3SjZIkftZ71-gdoF1B4Lkd3GFuQqjFj9q42iLLBFZGwr0IJIP7HhQhYq_p1W5jQKnHfLjSD9GYLucYXJGkjriPoA_HxCav_ak-0ZIRPLf2ssFcZwD5KOKE77WxRWh5uaSxc5pA7_Gt-8RMM7rNM_Wdq5uzZpk6eZcwo1cGKkgOS4ZgWNK98KiLLSKol0US3CDr5hv38yCT5V2Z0SCsT8WOyaDKor0wG6ak1I4E5u_mJp7WlUPT6eP01bT2-ya7ZnLScvOhJyph--og=w1294-h1978-no"/>
-					<p> Agenda 7th-9th </p>
+					<p> Agenda 5th-6th Grade </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 2nd box-->
 				</a>
 			</span>
 			<span class="lineal">
 				<a class="box" href="/Users/ivanjackson/Desktop/programing/Eagles Store/Uniforms.html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/cUahtuiH6VdEy04E5SEGUkJ99bzWPpRBSmCTUXnazmYteipGm5uUHJPtQJC0jmDkBFZAp_DmUMJcDh7Yxvj9Bbh-dYGCKj5m4djagJDBtzMx2PyCHlrhIZNOGEVxZ5GqzBI5q1UTZo6QOEon7jOnOpWTQwKTNXtRNgmClPEbq309D_S2cDQHVex-E_KtiZN6uyR4sPM0eGvYGgc8aBtn6UTKLUdEErqWY4iRYSxpxQ4ns3A9iv3y5NpMo8ijuvFBK5GKamLnPrmHaBy34bLYU8QwSIkrJ5ZplC2HsmI8qsD7w4I63N61c7av-_8vSFFWHGVCVzSe610Qj5m1VMZt7zU1p4diN6BXe4463EpwYx0E98rNacd_5eSN1RYI76mo7z7Pq-ElrK8cKQ7Ced1-J7khbiYCOdiWMGfUCJUZwgVTht_kEukBSnCyFHNl0WXWuff3rjcCd5Q0_pQ0y3hunIFrHboMhaw7Qepzxnbi0lGLoFKxteKpC1SLkC4VEjAghJluvg3ZbShW79l-guFyOqCCNPJXKGDkEZH3J7g952M7usddJH2Urh_flTeuuPLJM-XUsHeKNIwMiSHJv_oi1lVezea_s7gCaDD26TEvQScJNppnc6NmK_3qG3jiT9hCsNrlg6P6LXr5se6FrxZxhHdOrUJXxdyffAMXFsbSJA=w1246-h1978-no"/>
-					<p> Agenda 10th-12th </p>
+					<p> Agenda - Highschool </p>
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 3rd box-->
 				</a>
 			</span>
@@ -265,9 +265,6 @@
 
 		</div>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 	</body>
 </html>
