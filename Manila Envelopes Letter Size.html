@@ -1,1 +1,308 @@
 
+
+<html>
+  <head>
+    <style>
+
+        body {
+          background-color: #5cd6d6;
+          }
+
+          div.left {
+              width: 50%;
+              height: 100%;
+            /*  background-color: red;*/
+              display: inline-block;
+              margin-left: 0%;
+              margin-top:0%;
+              float: left;
+              text-align: center;
+            }
+
+            div.image {
+              margin-top: 2%;
+              text-align: center;
+            }
+
+
+
+          div.right {
+            width: 50%;
+            height: 100%;
+          /*  background-color: blue; */
+            display: inline-block;
+            margin-right: 0%;
+            margin-top:0%;
+            float: right;
+          }
+
+            div.title {
+              margin-top: 4%;
+              margin-left: 5%;
+              font-size: 2.678vw;
+              margin-right: 2%;
+            }
+
+              h1 {
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+                color: #FFFAF0;
+                font-variant: small-caps;
+              }
+
+          div.description {
+            color: FFFAF0;
+            font-size: 1.785vw;
+            margin-right: 4%;
+            margin-left: 7%;
+            margin-top: 2%;
+            text-align: justify;
+           }
+
+           div.price {
+             font-family: "Trebuchet MS", Helvetica, sans-serif;
+             margin-left: 7%;
+             margin-top: 15%;
+             font-size: 1.69vw;
+           }
+
+           h2 {
+             color: #FFFAF0;
+             font-style: bold;
+           }
+
+            a.backToMaterialsButton {
+                display: block;
+                border: none;
+                color: #49CCC3;
+                border-radius: 3px 3px 3px 3px;
+                -webkit-border-radius: 3px 3px 3px 3px;
+                -moz-border-radius: 3px 3px 3px 3px;
+                font-family: Trebuchet MS;
+                width: 15vw;
+                height: 2.34vw;
+                font-size: 1vw;
+                padding-left: .6vw;
+                padding-right: .6vw;
+                text-shadow: 0 1px 0 #FFFFFF;
+                background-color: #FCF8EF;
+                margin-left: 7%;
+                margin-top: 2%;
+                text-decoration: none;
+                padding-top: .6vw;
+                padding-bottom: .6vw;
+                text-align: center;
+               }
+
+               a.backToMaterialsButton:hover {
+                      border: none;
+                      color: grey;
+                      background-color: #FCF8EF;
+                      text-decoration: none;
+               }
+
+               a.backToMaterialsButton:active {
+                        border: none;
+                        color: grey;
+                        background-color: #FCF8EF;
+                        text-decoration: none;
+               }
+
+               a.backToMainButton {
+                  display: block;
+                  border: none;
+                  color: #49CCC3;
+                  border-radius: 3px 3px 3px 3px;
+                  -webkit-border-radius: 3px 3px 3px 3px;
+                  -moz-border-radius: 3px 3px 3px 3px;
+                  font-family: Trebuchet MS;
+                  width: 15vw;
+                  height: 2.34vw;
+                  font-size: 1vw;
+                  padding-left: .6vw;
+                  padding-right: .6vw;
+                  text-shadow: 0 1px 0 #FFFFFF;
+                  background-color: #FCF8EF;
+                  margin-left: 7%;
+                  margin-top: 2%;
+                  text-decoration: none;
+                  padding-top: .6vw;
+                  padding-bottom: .6vw;
+                  text-align: center;
+                }
+
+                 a.backToMainButton:hover {
+                      border: none;
+                      color: grey;
+                      text-decoration: none;
+                 }
+
+                 a.backToMainButton:active {
+                      border: none;
+                      color: grey;
+                      text-decoration: none;
+                 }
+
+             /*the reserve button*/
+         li {
+       		list-style: none;
+       		position: relative;
+       		display: inline-block;
+       		width: 10.516vw;
+       		height: 10.516vw;
+          margin-left: 57%;
+          margin-top: -20%;
+       	}
+
+
+         * {
+        margin: 0;
+        padding: 0;
+      	-moz-box-sizing: border-box;
+    		-o-box-sizing: border-box;
+    		-webkit-box-sizing: border-box;
+    		box-sizing: border-box;
+    	}
+    	@-moz-keyframes rotate {
+    		0% {transform: rotate(0deg);}
+    		100% {transform: rotate(-360deg);}
+    	}
+
+    	@-webkit-keyframes rotate {
+    		0% {transform: rotate(0deg);}
+    		100% {transform: rotate(-360deg);}
+    	}
+
+    	@-o-keyframes rotate {
+    		0% {transform: rotate(0deg);}
+    		100% {transform: rotate(-360deg);}
+    	}
+
+    	@keyframes rotate {
+    		0% {transform: rotate(0deg);}
+    		100% {transform: rotate(-360deg);}
+    	}
+
+    	.round {
+    		display: block;
+    		position: absolute;
+    		left: 0;
+    		top: 0;
+    		width: 100%;
+    		height: 100%;
+    		padding-top: 30%;
+    		text-decoration: none;
+    		text-align: center;
+    		font-size: 2.103vw;
+    		text-shadow: 0 0.06vw 0 rgba(255,255,255,.7);
+    		letter-spacing: -.065em;
+    		font-family: "Trebuchet MS", sans-serif;
+    		-webkit-transition: all .25s ease-in-out;
+    		-o-transition: all .25s ease-in-out;
+    		-moz-transition: all .25s ease-in-out;
+    		transition: all .25s ease-in-out;
+    		box-shadow: .120vw .120vw .420vw rgba(0,0,0,.2);
+    		border-radius: 18vw;
+    		z-index: 1;
+    		border-width: .24vw;
+    		border-style: solid;
+    	}
+
+    	.round:hover {
+    		width: 120%;
+    		height: 120%;
+    		left: -10%;
+    		top: -10%;
+    		font-size: 2.70vw;
+    		padding-top: 2.283vw;
+    		-webkit-box-shadow: .3vw .3vw .6vw rgba(0,0,0,.3);
+    		-o-box-shadow: 3vw 3vw .6vw rgba(0,0,0,.3);
+    		-moz-box-shadow: 3vw 3vw .6vw rgba(0,0,0,.3);
+    		/*box-shadow: 3vw 3vw .6vw rgba(0,0,0,.3);*/
+    		z-index: 2;
+    		border-size: .6vw;
+    		-webkit-transform: rotate(-360deg);
+    		-moz-transform: rotate(-360deg);
+    		-o-transform: rotate(-360deg);
+    		transform: rotate(-360deg);
+    	}
+    	a.green {
+    		background-color: #FFFAF0;
+    		color: gray;
+    		border-color: rgba(0,63,71,.2);
+    	}
+    	a.green:hover {
+    		color: rgba(1,151,171,1);
+    	}
+    	.round span.round {
+    		display: block;
+    		opacity: 0;
+    		-webkit-transition: all .5s ease-in-out;
+    		-moz-transition: all .5s ease-in-out;
+    		-o-transition: all .5s ease-in-out;
+    		transition: all .5s ease-in-out;
+    		font-size: .060vw;
+    		border: none;
+    		padding: 40% 20% 0 20%;
+    		color: gray;
+
+    	}
+
+    	.round span:hover {
+    		opacity: .85;
+    		font-size: .973vw;
+    		-webkit-text-shadow: 0 .06vw .06vw rgba(0,0,0,.5);
+    		-moz-text-shadow: 0 .06vw .06vw rgba(0,0,0,.5);
+    		-o-text-shadow: 0 .06vw .06vw rgba(0,0,0,.5);
+    		text-shadow: 0 .06vw .06vw rgba(0,0,0,.5);
+        font-size: 1.80vw;
+    	}
+
+    	.green span {
+    		background:  #FFFAF0;
+    	}
+      /*the reserve button ends*/
+
+
+        </style>
+
+    <script>
+        function sendEmail() {
+             window.open('mailto:iperez@wesleyanacademy.org?subject=Reserve Highshcool Agenda &body=Write down your name, grade section and quantity');
+        }
+    </script>
+  </head>
+  <body>
+
+        <div class="left">
+          <div class="image">
+            <img src="https://lh3.googleusercontent.com/LdwEcatXFSGvo1QIdDR76SjhmMwrb9BftOnneLJCRUSltPnTsjHiQiTVxu2WHUxHygpBKAMWsdqAMS8Hvk6O8-PI9G-3S1YDEHCZ5DNFWuuShZAdZv6NPYyufPWz52x5AH5SO-iwjUe2CP6NYEykMyctY7G9Bc5Tlyp-V6xHU4k4IJs3q0qPSnM7tChpvZKpEHZuDlt9rq1awfHvVpMM7FUKh7vwauAFIW9-gZIk5J_iba8ZcciURt503ovkM968Rxcx--Gg0ZHY6Ghy-cJG8yJlllFTh53ymT0eYnQFOvfXpT7bneKLgbHrnkiMcPXst2YsXiZYwVSnEL9IBhk1yIJH9Q9lP5tcQhQobwJj7AQ0aLxLxCvvThIe29Cx_lT3D6jOFOirmn6ul005oN8abKmQ-Yq3sPsyn4vThuYI_SAURz13IrFDE280rJjk_Wx0JD-nvEXomQIGC9QITuTZpjAlYPypqYUj4YayaI1_0qPFyYOXrfssGahtuWA9FyGhCGVer9of9gXzTPHJ7wLDIcO47lW_ltPNUf_ojM36k_NZ-6iOZvmQFI9JxM4QaxHgmiydDN4EYPI2i50aaakv1cYSnYBXO0mEuBHq1tPhQmmTn8F2UOR6MqISWvsD9wGwCkncfCtxOkalbcPfniQPKsgfViI38IR1xSq6wlaX6w=w1569-h1943-no" width="95.2380952%" />
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="title">
+            <h1> Elementary </br> School Agenda </h1>
+          </div>
+
+
+
+      <div class="description">
+          <p> This is the 4th Grade Agenda. </p> </br> <p> The agenda is required for all students not only for them to keep themselves organized, but it also serves as a tool that contains the periodic table, a ruler, a calendar and many other tips and tricks to help them get through school as smoothly as possible.    </p>
+      </div>
+
+      <div class="price">
+          <h2> Price: $11.75 </h2>
+        </div>
+
+        <a class="backToMaterialsButton" href="/Users/ivanjackson/Desktop/Eagle-Store-Website/_Materials.html"> Back To Materials </a>
+        <a class="backToMainButton" href="/Users/ivanjackson/Desktop/Eagle-Store-Website/_Main_Page.html"> Back To Home </a>
+
+
+        <li>
+            <a href="#" class="round green" onclick="sendEmail()"> Reserve <span class="round"> Click here to reserve your item</span></a>
+        </li>
+
+      </div>
+
+  </body>
+</html>
