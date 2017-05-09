@@ -9,7 +9,7 @@
 		body {
 			background-color: f9f9f9;
 		}
-		
+
 		div.everything {
 			margin: 0 auto;
 			margin-top: -3%;
@@ -128,7 +128,83 @@
 			font-size: 3.2vw;
 			color: #34B8B9;
 		}
+
+		/*here starts the dropup table*/
+		.dropbtn {
+    background-color: #34B8B9;
+    color: #FFFAF0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+		width: 50vw;
+		margin-top: 25.34vh;
+		text-align: center;
+		margin-left: 10vw;
+		font-size: 2vw;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #E8E7E3;
+		color: #34B8B9
+}
+
+.dropdown {
+    float: center;
+    position: relative;
+    display: block;
+		margin-bottom: 0%;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 29.5vw;
+    z-index: -1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
 	</style>
+
+
+<script>
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
+			}
+		}
+		}
+
+</script>
 
 	</head>
 
@@ -171,6 +247,15 @@
 						</td></tr>
 					</table>
 				</a>
+			</div>
+
+			<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Credits</button>
+			  <div id="myDropdown" class="dropdown-content">
+			    <a href="#home">Home</a>
+			    <a href="#about">About</a>
+			    <a href="#contact">Contact</a>
+			  </div>
 			</div>
 
 		</div>
