@@ -1,0 +1,49 @@
+
+This is an attempt to document our far-fetched ideas and the few that we actually got to code down.
+This experiment is proof that Josean and I had no idea what we had gotten into but that we tried our best to bring this dream into
+reality, and we almost did, we just ran out of time.
+In this document I intent to show whoever reads this how much we had planned (maybe trying to inspire the reader into finishing), explaining in general
+what we did accomplish and what we visualize for this website in the future in case it falls in the hands of someone who is apt and has the motivation to finish it.
+Forgive us for any information we fail to mention on this document, after all, we are high-school students learning how to do this.
+
+Ideas we planned to implement:
+ - A "Books" section in which the students, parents or anyone could look at the books the eagle store offers or where to find them
+    + The list of books that is found on Edline could be added here and each book could be "clickable" so the user could see where to find it.
+- A "Uniform" section in which the user could see the sizes of the P.E. uniforms that are available
+    + Maybe it could be implemented the feature in which a map could show where the user could buy the regular uniforms
+- Find and use the most effective method to contact the eagle store to reserve any of the objects presented in the website
+
+Features of the website:
+- Main Page:
+  - Drop down button which has a tiny paragraph giving credits to the collaborators of this website.
+  - The css and javascript elements of this page are separated into different documents for cleanliness purposes
+  - 3 images/links that take the user to another part of the website (only "Materials is showing, "Books" and "Uniforms" are hidden because they were too behind.)
+  - A logo of the website (all of the images used in the website are part of our private Google Photos, all of these will be transferred to an account maintained by
+  the school)
+
+Materials Page:
+  - A list, handmade, of all of the MATERIALS the Eagle Store provides. Each item is labeled with a photo of the item and its name*
+      *The name used is a combination of it official name(the name used by the official sellers) and the common name(name used by the buyers like students and teachers)
+  - The photo of the item being presented was taken, edited and used by us. All of the pictures had their background erased.
+
+Individual Items Page:
+  - Half of the page is used to present an enlarged picture of the item presented
+  - The other half includes the name of the item, a description* of the item, its price (always specifying that the tax is not included), two buttons allowing the user
+    to go back to the Materials page or the main page and a Reserve button which allows the user to send an email to the Eagle Store specifying the item they want to
+    reserve, their first and last name as well as their grade and section to avoid any confusion to other students.
+      *The description, as of now, is something that we had to come up with. It should be something the Eagle Store or the Manufacturer of the product should
+      regulate/write.
+
+Visualized Ideas/Dream Features:
+- A log in system which enables a shop feature and a shopping cart
+- A better coding technique/language for this sort of responsive/active webpage. For the front end of the website, AngularJS is highly recommended since it supports
+  HTML, CSS and JS and it is very efficient.
+- An easy method for the Eagle Store to count down the stock available in the website (this would require some sort of dashboard only available for the administrator)
+- A way for the administrator to put a different image for an item that is out of stock.
+<Insert your own dreams here> </>
+
+***** Some of the code used is more complex than expected and has to be used from another source (adapted from another webpage, for example) and there is no precise
+      way of explaining line by line what the code does. We kinda understood it and adapted it to our need. We apologize of this too much of an inconvenience.*****
+
+Once again we would like to thank the school for the huge opportunity they provided us to start this HUGE project. It started as a wild idea and step by step it is
+coming to life. This wouldn't have been able without the support we got. 

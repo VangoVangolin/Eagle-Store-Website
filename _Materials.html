@@ -2,218 +2,7 @@
 	<!--Este va a ser el titulo del website-->
 	<head>
 		<title> Materials </title>
-	<style>
-		div.everything {
-			margin-left: 100px;
-			margin-right: 100px;
-			margin-top: 0px;
-			margin-bottom: 30px;
-			color: "fffafa";
-		}
-
-		div.logo {
-			text-align: center;
-		}
-		span.first {
-			display: inline-block;
-			margin-left: 25px;
-		}
-
-		span.lineal {
-				display: inline-block;
-				padding-left: 50px;
-
-		}
-
-		span.secondary {
-			display: inline-block;
-			margin-left: 25px;
-			padding-top: 60px;
-		}
-
-
-
-		a.box:link{
-			display: block;
-			/*background-color: rgb(244,244,244); */
-			height: 200px;
-			width: 150px;
-			color: #34B8B9;
-			text-decoration: none;
-             border-radius: 50px;
-			font-family: Laughing Gull Regular;
-		}
-		a.box:hover {
-			display: block;
-			/*background-color: #34B8B9; */
-			/*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
-			height: 200px;
-			width: 150px;
-
-			text-decoration: none;
-      border-radius: 50px ;
-      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      perspective: 1000px;
-			font-family: Laughing Gull Regular;
-			/*-moz-box-shadow:    0 0 50px #34B8B9;
-			-webkit-box-shadow: 0 0 50px #34B8B9;
-			box-shadow:         0 0 50px #34B8B9;*/
-
-        }
-			a.box:visited {
-				display: block;
-				/*background-color: #34B8B9; */
-				/*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
-				height: 200px;
-				width: 150px;
-
-				text-decoration: none;
-				border-radius: 50px ;
-				animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-				transform: translate3d(0, 0, 0);
-				backface-visibility: hidden;
-				perspective: 1000px;
-				font-family: Laughing Gull Regular;
-				/*-moz-box-shadow:    0 0 50px #34B8B9;
-				-webkit-box-shadow: 0 0 50px #34B8B9;
-				box-shadow:         0 0 50px #34B8B9;*/
-
-					}
-
-
-
-			@-webkit-keyframes shake {
-			    0%, 100% {-webkit-transform: translateX(0) rotate(0deg) translateY(0);}
-			    15%, 35%, 55%, 75%, 95% {-webkit-transform: translateX(-1px) rotate(-2deg) ;}
-			    25%, 45%, 65%, 85% {-webkit-transform: translateX(1px) rotate(2deg); }
-			    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateY(1px);}
-			    20%, 40%, 60%, 80% {-webkit-transform: translateY(-1px); }
-			}
-			@-moz-keyframes shake {
-			    0%, 100% {-moz-transform: translateX(0) rotate(0deg) translateY(0);}
-			    15%, 35%, 55%, 75%, 95% {-moz-transform: translateX(-1px) rotate(-2deg) ;}
-			    25%, 45%, 65%, 85% {-moz-transform: translateX(1px) rotate(2deg); }
-			    10%, 30%, 50%, 70%, 90% {-moz-transform: translateY(1px);}
-			    20%, 40%, 60%, 80% {-moz-transform: translateY(-1px); }
-			}
-
-			@-o-keyframes shake {
-			     0%, 100% {-o-transform: translateX(0) rotate(0deg) translateY(0);}
-			    15%, 35%, 55%, 75%, 95% {-o-transform: translateX(-1px) rotate(-2deg) ;}
-			    25%, 45%, 65%, 85% {-o-transform: translateX(1px) rotate(2deg); }
-			    10%, 30%, 50%, 70%, 90% {-o-transform: translateY(1px);}
-			    20%, 40%, 60%, 80% {-o-transform: translateY(-1px); }
-			}
-
-			@keyframes shake {
-			    0%, 100% {transform: translateX(0) rotate(0deg) translateY(0);}
-			    15%, 35%, 55%, 75%, 95% {transform: translateX(-1px) rotate(-2deg) ;}
-			    25%, 45%, 65%, 85% {transform: translateX(1px) rotate(2deg); }
-			    10%, 30%, 50%, 70%, 90% {transform: translateY(1px);}
-			    20%, 40%, 60%, 80% {transform: translateY(-1px); }
-			}
-			.shake {
-			    -webkit-animation-name: shake;
-			    -moz-animation-name: shake;
-			    -o-animation-name: shake;
-			    animation-name: shake;
-			    -webkit-animation-duration: 100s;
-			    -moz-animation-duration: 100s;
-			    -o-animation-duration: 100s;
-			    animation-duration: 100s;
-			    -webkit-animation-fill-mode: both;
-			    -moz-animation-fill-mode: both;
-			    -o-animation-fill-mode: both;
-			    animation-fill-mode: both;
-			    -webkit-animation-iteration-count: infinite;
-			    -moz-animation-iteration-count: infinite;
-			    -o-animation-iteration-count: infinite;
-			    animation-iteration-count: infinite;
-				/*-webkit-transition-timing-function:"linear"; */
-			}
-		h1 {
-			text-align: center;
-			padding-top: 30px;
-		}
-		img.circles {
-			padding-left: 35px;
-			padding-top: 45px;
-		}
-		img.materials {
-			height: 200px;
-			width: 150px;
-		}
-		img.brushes {
-			height: 100%;
-			margin-left: 39%;
-		}
-		img.soprano {
-			height: 100%;
-			margin-left: 30%;
-		}
-		img.bounty{
-			height: 100%;
-			margin-left: 20%;
-		}
-		img.wide {
-			width: 100%;
-			margin-bottom: 20%;
-		}
-p {
-	text-align: center;
-}
-/*
-li {
-	list-style-type: none;
-	list-style-position: inherit;
-
-
-}
-#myInput {
-    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  /*  background-position: 10px 12px; /* Position the search icon */
-  /*  background-repeat: no-repeat; /* Do not repeat the icon image */
-  /*  width: 100%; /* Full-width */
-    /*font-size: 16px; /* Increase font-size */
-  /*  padding: 12px 20px 12px 40px; /* Add some padding */
-    /*border: 1px solid #ddd; /* Add a grey border */
-    /*margin-bottom: 12px; /* Add some space below the input */
-/*}
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-*/
-
-	</style>
-
-	<script>
-	/*
-	function myFunction() {
-    // Declare variables
-    var input, filter, ul, li, a, i;
-    input = document.getElementById('myInput');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName('li');
-
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-} */
-
-		</script>
-
-
+		<link rel="stylesheet" href="_Materials_Css.css">
 	</head>
 
 <body>
@@ -739,7 +528,7 @@ ul {
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 1st box,-->
 				</a>
 			</span>
-<!--
+	<!--
 			<span class= "lineal">
 				  <a title="Click here for more info" class="box" href="Jovi Crayons 24 (Kit 1 to 4).html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/vnJ-URy8mkn2eCikaOo8C7EleoNWqB64P1HznDLj4_FhFdIjeE2kVrcG7bQzLESSxDD4nLRJjbTf4zA9M6b3eXh2vmJlp25ca9PRJiH8E_FSggxz6XMUPCFV21UWD07GTtg7OcQlrqTScHIX1PPNmAjMCxfCN3S45yN2cm_GgnWCisgPqAd-1M7N0tM7Ys6w8R6i_0hdMymx8fXC9799ZRCKubNWGAoHWkK9HQB0_OKMQxyFA50Y0Uwu4PkL7xZXArfoNnHRDFhxkCgH_owZrYXBmv2hazG2kJEBM04q31daydNn_uQbdUNoYN_d2EyewQWn75rm0LC5c11zrrpmM5W4zRGGQbHJLx2034uy9tPti-5orLYNsb3oo9BpG4bQzcreu1oyRQz-OlmRb31Tz8M-j1QW3SjZIkftZ71-gdoF1B4Lkd3GFuQqjFj9q42iLLBFZGwr0IJIP7HhQhYq_p1W5jQKnHfLjSD9GYLucYXJGkjriPoA_HxCav_ak-0ZIRPLf2ssFcZwD5KOKE77WxRWh5uaSxc5pA7_Gt-8RMM7rNM_Wdq5uzZpk6eZcwo1cGKkgOS4ZgWNK98KiLLSKol0US3CDr5hv38yCT5V2Z0SCsT8WOyaDKor0wG6ak1I4E5u_mJp7WlUPT6eP01bT2-ya7ZnLScvOhJyph--og=w1294-h1978-no"/>
@@ -797,7 +586,7 @@ ul {
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 1st box,-->
 				</a>
 			</span>
-<!--
+	<!--
 			<span class= "lineal">
 				  <a title="Click here for more info" class="box" href="Jovi Trigraph HB (Kit 1-6).html">
 					<img class="materials" src= "https://lh3.googleusercontent.com/vnJ-URy8mkn2eCikaOo8C7EleoNWqB64P1HznDLj4_FhFdIjeE2kVrcG7bQzLESSxDD4nLRJjbTf4zA9M6b3eXh2vmJlp25ca9PRJiH8E_FSggxz6XMUPCFV21UWD07GTtg7OcQlrqTScHIX1PPNmAjMCxfCN3S45yN2cm_GgnWCisgPqAd-1M7N0tM7Ys6w8R6i_0hdMymx8fXC9799ZRCKubNWGAoHWkK9HQB0_OKMQxyFA50Y0Uwu4PkL7xZXArfoNnHRDFhxkCgH_owZrYXBmv2hazG2kJEBM04q31daydNn_uQbdUNoYN_d2EyewQWn75rm0LC5c11zrrpmM5W4zRGGQbHJLx2034uy9tPti-5orLYNsb3oo9BpG4bQzcreu1oyRQz-OlmRb31Tz8M-j1QW3SjZIkftZ71-gdoF1B4Lkd3GFuQqjFj9q42iLLBFZGwr0IJIP7HhQhYq_p1W5jQKnHfLjSD9GYLucYXJGkjriPoA_HxCav_ak-0ZIRPLf2ssFcZwD5KOKE77WxRWh5uaSxc5pA7_Gt-8RMM7rNM_Wdq5uzZpk6eZcwo1cGKkgOS4ZgWNK98KiLLSKol0US3CDr5hv38yCT5V2Z0SCsT8WOyaDKor0wG6ak1I4E5u_mJp7WlUPT6eP01bT2-ya7ZnLScvOhJyph--og=w1294-h1978-no"/>
@@ -1465,11 +1254,6 @@ ul {
 					<!--picture font: trashhand, new height and width is 50px greater, this is the 7th box-->
 				</a>
 			</span>
-
-
-
 		</div>
-
-
 	</body>
 </html>

@@ -1,0 +1,162 @@
+
+  div.everything {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: "fffafa";
+  }
+
+  div.logo {
+    text-align: center;
+  }
+  span.first {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  span.lineal {
+      display: inline-block;
+      padding-left: 50px;
+
+  }
+
+  span.secondary {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 60px;
+  }
+
+
+
+  a.box:link{
+    display: block;
+    /*background-color: rgb(244,244,244); */
+    height: 200px;
+    width: 150px;
+    color: #34B8B9;
+    text-decoration: none;
+           border-radius: 50px;
+    font-family: Laughing Gull Regular;
+  }
+  a.box:hover {
+    display: block;
+    /*background-color: #34B8B9; */
+    /*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
+    height: 200px;
+    width: 150px;
+
+    text-decoration: none;
+    border-radius: 50px ;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    font-family: Laughing Gull Regular;
+    /*-moz-box-shadow:    0 0 50px #34B8B9;
+    -webkit-box-shadow: 0 0 50px #34B8B9;
+    box-shadow:         0 0 50px #34B8B9;*/
+
+      }
+    a.box:visited {
+      display: block;
+      /*background-color: #34B8B9; */
+      /*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
+      height: 200px;
+      width: 150px;
+
+      text-decoration: none;
+      border-radius: 50px ;
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+      font-family: Laughing Gull Regular;
+      /*-moz-box-shadow:    0 0 50px #34B8B9;
+      -webkit-box-shadow: 0 0 50px #34B8B9;
+      box-shadow:         0 0 50px #34B8B9;*/
+
+        }
+
+
+
+    @-webkit-keyframes shake {
+        0%, 100% {-webkit-transform: translateX(0) rotate(0deg) translateY(0);}
+        15%, 35%, 55%, 75%, 95% {-webkit-transform: translateX(-1px) rotate(-2deg) ;}
+        25%, 45%, 65%, 85% {-webkit-transform: translateX(1px) rotate(2deg); }
+        10%, 30%, 50%, 70%, 90% {-webkit-transform: translateY(1px);}
+        20%, 40%, 60%, 80% {-webkit-transform: translateY(-1px); }
+    }
+    @-moz-keyframes shake {
+        0%, 100% {-moz-transform: translateX(0) rotate(0deg) translateY(0);}
+        15%, 35%, 55%, 75%, 95% {-moz-transform: translateX(-1px) rotate(-2deg) ;}
+        25%, 45%, 65%, 85% {-moz-transform: translateX(1px) rotate(2deg); }
+        10%, 30%, 50%, 70%, 90% {-moz-transform: translateY(1px);}
+        20%, 40%, 60%, 80% {-moz-transform: translateY(-1px); }
+    }
+
+    @-o-keyframes shake {
+         0%, 100% {-o-transform: translateX(0) rotate(0deg) translateY(0);}
+        15%, 35%, 55%, 75%, 95% {-o-transform: translateX(-1px) rotate(-2deg) ;}
+        25%, 45%, 65%, 85% {-o-transform: translateX(1px) rotate(2deg); }
+        10%, 30%, 50%, 70%, 90% {-o-transform: translateY(1px);}
+        20%, 40%, 60%, 80% {-o-transform: translateY(-1px); }
+    }
+
+    @keyframes shake {
+        0%, 100% {transform: translateX(0) rotate(0deg) translateY(0);}
+        15%, 35%, 55%, 75%, 95% {transform: translateX(-1px) rotate(-2deg) ;}
+        25%, 45%, 65%, 85% {transform: translateX(1px) rotate(2deg); }
+        10%, 30%, 50%, 70%, 90% {transform: translateY(1px);}
+        20%, 40%, 60%, 80% {transform: translateY(-1px); }
+    }
+    .shake {
+        -webkit-animation-name: shake;
+        -moz-animation-name: shake;
+        -o-animation-name: shake;
+        animation-name: shake;
+        -webkit-animation-duration: 100s;
+        -moz-animation-duration: 100s;
+        -o-animation-duration: 100s;
+        animation-duration: 100s;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      /*-webkit-transition-timing-function:"linear"; */
+    }
+  h1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  img.circles {
+    padding-left: 35px;
+    padding-top: 45px;
+  }
+  img.materials {
+    height: 200px;
+    width: 150px;
+  }
+  img.brushes {
+    height: 100%;
+    margin-left: 39%;
+  }
+  img.soprano {
+    height: 100%;
+    margin-left: 30%;
+  }
+  img.bounty{
+    height: 100%;
+    margin-left: 20%;
+  }
+  img.wide {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  p {
+    text-align: center;
+}
