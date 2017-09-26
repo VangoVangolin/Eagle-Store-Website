@@ -36,16 +36,15 @@
     width: 150px;
     color: #34B8B9;
     text-decoration: none;
-           border-radius: 50px;
+    border-radius: 50px;
     font-family: Laughing Gull Regular;
   }
-  a.box:hover {
+  a:hover {
     display: block;
     /*background-color: #34B8B9; */
     /*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
     height: 200px;
     width: 150px;
-
     text-decoration: none;
     border-radius: 50px ;
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -58,14 +57,14 @@
     box-shadow:         0 0 50px #34B8B9;*/
 
       }
-    a.box:visited {
+    a:visited {
       display: block;
       /*background-color: #34B8B9; */
       /*color is medium turquoise, retrieved from: http://www.computerhope.com/cgi-bin/htmlcolor.pl?c=48CCCD */
       height: 200px;
       width: 150px;
-
       text-decoration: none;
+      text-transform: none;
       border-radius: 50px ;
       animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       transform: translate3d(0, 0, 0);
@@ -159,4 +158,5 @@
   }
   p {
     text-align: center;
+    text-decoration: none;
 }
