@@ -57,6 +57,12 @@
           perspective: 1000px;
     margin: 0 auto;
       }
+    a.thankyou {
+      border-radius: 0%;
+      animation: none;
+      transform: none;
+      margin: .3px;
+    }
   a:visited{
     display: block;
     background-color: rgb(244,244,244);
@@ -157,7 +163,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  overflow: auto;
+  overflow: none;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -167,6 +173,8 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
+
 }
 
 .dropdown a:hover {background-color: #f1f1f1}
