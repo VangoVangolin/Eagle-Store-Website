@@ -10,6 +10,7 @@
   div.logo {
     text-align: center;
   }
+
   span.first {
     display: inline-block;
     margin-left: 25px;
@@ -18,7 +19,6 @@
   span.lineal {
       display: inline-block;
       padding-left: 50px;
-
   }
 
   span.secondary {
@@ -26,8 +26,6 @@
     margin-left: 25px;
     padding-top: 60px;
   }
-
-
 
   a.box:link{
     display: block;
@@ -39,6 +37,7 @@
     border-radius: 50px;
     font-family: Laughing Gull Regular;
   }
+
   a:hover {
     display: block;
     /*background-color: #34B8B9; */
@@ -55,8 +54,8 @@
     /*-moz-box-shadow:    0 0 50px #34B8B9;
     -webkit-box-shadow: 0 0 50px #34B8B9;
     box-shadow:         0 0 50px #34B8B9;*/
+    }
 
-      }
     a:visited {
       display: block;
       /*background-color: #34B8B9; */
@@ -74,8 +73,13 @@
       /*-moz-box-shadow:    0 0 50px #34B8B9;
       -webkit-box-shadow: 0 0 50px #34B8B9;
       box-shadow:         0 0 50px #34B8B9;*/
+      }
 
-        }
+      a.logo:hover {
+        text-align: center;
+        animation: none;
+        display: inline;
+      }
 
 
 
